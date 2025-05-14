@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: LibDocsDemo.Math.Calculator
+  commentId: T:LibDocsDemo.Math.Calculator
+  id: Calculator
+  parent: LibDocsDemo.Math
+  children:
+  - LibDocsDemo.Math.Calculator.Add(System.Double,System.Double)
+  - LibDocsDemo.Math.Calculator.Divide(System.Double,System.Double)
+  - LibDocsDemo.Math.Calculator.Multiply(System.Double,System.Double)
+  - LibDocsDemo.Math.Calculator.Subtract(System.Double,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: Calculator
+  nameWithType: Calculator
+  fullName: LibDocsDemo.Math.Calculator
+  type: Class
+  source:
+    id: Calculator
+    path: D:\Mobile\repos\LibDocsDemo\Math\Calculator.cs
+    startLine: 7
+  assemblies:
+  - LibDocsDemo
+  namespace: LibDocsDemo.Math
+  summary: Provides basic arithmetic operations.
+  example: []
+  syntax:
+    content: public static class Calculator
+    content.vb: Public Module Calculator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: LibDocsDemo.Math.Calculator.Add(System.Double,System.Double)
+  commentId: M:LibDocsDemo.Math.Calculator.Add(System.Double,System.Double)
+  id: Add(System.Double,System.Double)
+  parent: LibDocsDemo.Math.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Add(double, double)
+  nameWithType: Calculator.Add(double, double)
+  fullName: LibDocsDemo.Math.Calculator.Add(double, double)
+  type: Method
+  source:
+    id: Add
+    path: D:\Mobile\repos\LibDocsDemo\Math\Calculator.cs
+    startLine: 12
+  assemblies:
+  - LibDocsDemo
+  namespace: LibDocsDemo.Math
+  summary: Adds two numbers.
+  example: []
+  syntax:
+    content: public static double Add(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Add(a As Double, b As Double) As Double
+  overload: LibDocsDemo.Math.Calculator.Add*
+  nameWithType.vb: Calculator.Add(Double, Double)
+  fullName.vb: LibDocsDemo.Math.Calculator.Add(Double, Double)
+  name.vb: Add(Double, Double)
+- uid: LibDocsDemo.Math.Calculator.Subtract(System.Double,System.Double)
+  commentId: M:LibDocsDemo.Math.Calculator.Subtract(System.Double,System.Double)
+  id: Subtract(System.Double,System.Double)
+  parent: LibDocsDemo.Math.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Subtract(double, double)
+  nameWithType: Calculator.Subtract(double, double)
+  fullName: LibDocsDemo.Math.Calculator.Subtract(double, double)
+  type: Method
+  source:
+    id: Subtract
+    path: D:\Mobile\repos\LibDocsDemo\Math\Calculator.cs
+    startLine: 17
+  assemblies:
+  - LibDocsDemo
+  namespace: LibDocsDemo.Math
+  summary: Subtracts the second number from the first.
+  example: []
+  syntax:
+    content: public static double Subtract(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Subtract(a As Double, b As Double) As Double
+  overload: LibDocsDemo.Math.Calculator.Subtract*
+  nameWithType.vb: Calculator.Subtract(Double, Double)
+  fullName.vb: LibDocsDemo.Math.Calculator.Subtract(Double, Double)
+  name.vb: Subtract(Double, Double)
+- uid: LibDocsDemo.Math.Calculator.Multiply(System.Double,System.Double)
+  commentId: M:LibDocsDemo.Math.Calculator.Multiply(System.Double,System.Double)
+  id: Multiply(System.Double,System.Double)
+  parent: LibDocsDemo.Math.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Multiply(double, double)
+  nameWithType: Calculator.Multiply(double, double)
+  fullName: LibDocsDemo.Math.Calculator.Multiply(double, double)
+  type: Method
+  source:
+    id: Multiply
+    path: D:\Mobile\repos\LibDocsDemo\Math\Calculator.cs
+    startLine: 22
+  assemblies:
+  - LibDocsDemo
+  namespace: LibDocsDemo.Math
+  summary: Multiplies two numbers.
+  example: []
+  syntax:
+    content: public static double Multiply(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Multiply(a As Double, b As Double) As Double
+  overload: LibDocsDemo.Math.Calculator.Multiply*
+  nameWithType.vb: Calculator.Multiply(Double, Double)
+  fullName.vb: LibDocsDemo.Math.Calculator.Multiply(Double, Double)
+  name.vb: Multiply(Double, Double)
+- uid: LibDocsDemo.Math.Calculator.Divide(System.Double,System.Double)
+  commentId: M:LibDocsDemo.Math.Calculator.Divide(System.Double,System.Double)
+  id: Divide(System.Double,System.Double)
+  parent: LibDocsDemo.Math.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Divide(double, double)
+  nameWithType: Calculator.Divide(double, double)
+  fullName: LibDocsDemo.Math.Calculator.Divide(double, double)
+  type: Method
+  source:
+    id: Divide
+    path: D:\Mobile\repos\LibDocsDemo\Math\Calculator.cs
+    startLine: 28
+  assemblies:
+  - LibDocsDemo
+  namespace: LibDocsDemo.Math
+  summary: Divides the first number by the second.
+  example: []
+  syntax:
+    content: public static double Divide(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Divide(a As Double, b As Double) As Double
+  overload: LibDocsDemo.Math.Calculator.Divide*
+  exceptions:
+  - type: System.DivideByZeroException
+    commentId: T:System.DivideByZeroException
+    description: Thrown when the divisor is zero.
+  nameWithType.vb: Calculator.Divide(Double, Double)
+  fullName.vb: LibDocsDemo.Math.Calculator.Divide(Double, Double)
+  name.vb: Divide(Double, Double)
+references:
+- uid: LibDocsDemo.Math
+  commentId: N:LibDocsDemo.Math
+  href: LibDocsDemo.html
+  name: LibDocsDemo.Math
+  nameWithType: LibDocsDemo.Math
+  fullName: LibDocsDemo.Math
+  spec.csharp:
+  - uid: LibDocsDemo
+    name: LibDocsDemo
+    href: LibDocsDemo.html
+  - name: .
+  - uid: LibDocsDemo.Math
+    name: Math
+    href: LibDocsDemo.Math.html
+  spec.vb:
+  - uid: LibDocsDemo
+    name: LibDocsDemo
+    href: LibDocsDemo.html
+  - name: .
+  - uid: LibDocsDemo.Math
+    name: Math
+    href: LibDocsDemo.Math.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LibDocsDemo.Math.Calculator.Add*
+  commentId: Overload:LibDocsDemo.Math.Calculator.Add
+  href: LibDocsDemo.Math.Calculator.html#LibDocsDemo_Math_Calculator_Add_System_Double_System_Double_
+  name: Add
+  nameWithType: Calculator.Add
+  fullName: LibDocsDemo.Math.Calculator.Add
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: LibDocsDemo.Math.Calculator.Subtract*
+  commentId: Overload:LibDocsDemo.Math.Calculator.Subtract
+  href: LibDocsDemo.Math.Calculator.html#LibDocsDemo_Math_Calculator_Subtract_System_Double_System_Double_
+  name: Subtract
+  nameWithType: Calculator.Subtract
+  fullName: LibDocsDemo.Math.Calculator.Subtract
+- uid: LibDocsDemo.Math.Calculator.Multiply*
+  commentId: Overload:LibDocsDemo.Math.Calculator.Multiply
+  href: LibDocsDemo.Math.Calculator.html#LibDocsDemo_Math_Calculator_Multiply_System_Double_System_Double_
+  name: Multiply
+  nameWithType: Calculator.Multiply
+  fullName: LibDocsDemo.Math.Calculator.Multiply
+- uid: System.DivideByZeroException
+  commentId: T:System.DivideByZeroException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.dividebyzeroexception
+  name: DivideByZeroException
+  nameWithType: DivideByZeroException
+  fullName: System.DivideByZeroException
+- uid: LibDocsDemo.Math.Calculator.Divide*
+  commentId: Overload:LibDocsDemo.Math.Calculator.Divide
+  href: LibDocsDemo.Math.Calculator.html#LibDocsDemo_Math_Calculator_Divide_System_Double_System_Double_
+  name: Divide
+  nameWithType: Calculator.Divide
+  fullName: LibDocsDemo.Math.Calculator.Divide

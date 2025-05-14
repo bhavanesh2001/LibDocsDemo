@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: LibDocsDemo.Math
+  commentId: N:LibDocsDemo.Math
+  id: LibDocsDemo.Math
+  children:
+  - LibDocsDemo.Math.Calculator
+  langs:
+  - csharp
+  - vb
+  name: LibDocsDemo.Math
+  nameWithType: LibDocsDemo.Math
+  fullName: LibDocsDemo.Math
+  type: Namespace
+  assemblies:
+  - LibDocsDemo
+references:
+- uid: LibDocsDemo.Math.Calculator
+  commentId: T:LibDocsDemo.Math.Calculator
+  href: LibDocsDemo.Math.Calculator.html
+  name: Calculator
+  nameWithType: Calculator
+  fullName: LibDocsDemo.Math.Calculator
