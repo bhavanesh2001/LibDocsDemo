@@ -15,8 +15,12 @@ items:
   fullName: LibDocsDemo.Utilities.StringHelper
   type: Class
   source:
+    remote:
+      path: Utilities/StringHelper.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: StringHelper
-    path: D:\Mobile\repos\LibDocsDemo\Utilities\StringHelper.cs
+    path: ../Utilities/StringHelper.cs
     startLine: 7
   assemblies:
   - LibDocsDemo
@@ -48,8 +52,12 @@ items:
   fullName: LibDocsDemo.Utilities.StringHelper.IsNullOrEmpty(string?)
   type: Method
   source:
+    remote:
+      path: Utilities/StringHelper.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: IsNullOrEmpty
-    path: D:\Mobile\repos\LibDocsDemo\Utilities\StringHelper.cs
+    path: ../Utilities/StringHelper.cs
     startLine: 12
   assemblies:
   - LibDocsDemo
@@ -80,8 +88,12 @@ items:
   fullName: LibDocsDemo.Utilities.StringHelper.Reverse(string)
   type: Method
   source:
+    remote:
+      path: Utilities/StringHelper.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Reverse
-    path: D:\Mobile\repos\LibDocsDemo\Utilities\StringHelper.cs
+    path: ../Utilities/StringHelper.cs
     startLine: 19
   assemblies:
   - LibDocsDemo

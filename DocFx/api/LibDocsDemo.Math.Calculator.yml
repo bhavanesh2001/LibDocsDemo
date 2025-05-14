@@ -17,8 +17,12 @@ items:
   fullName: LibDocsDemo.Math.Calculator
   type: Class
   source:
+    remote:
+      path: Math/Calculator.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Calculator
-    path: D:\Mobile\repos\LibDocsDemo\Math\Calculator.cs
+    path: ../Math/Calculator.cs
     startLine: 7
   assemblies:
   - LibDocsDemo
@@ -50,8 +54,12 @@ items:
   fullName: LibDocsDemo.Math.Calculator.Add(double, double)
   type: Method
   source:
+    remote:
+      path: Math/Calculator.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Add
-    path: D:\Mobile\repos\LibDocsDemo\Math\Calculator.cs
+    path: ../Math/Calculator.cs
     startLine: 12
   assemblies:
   - LibDocsDemo
@@ -84,8 +92,12 @@ items:
   fullName: LibDocsDemo.Math.Calculator.Subtract(double, double)
   type: Method
   source:
+    remote:
+      path: Math/Calculator.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Subtract
-    path: D:\Mobile\repos\LibDocsDemo\Math\Calculator.cs
+    path: ../Math/Calculator.cs
     startLine: 17
   assemblies:
   - LibDocsDemo
@@ -118,8 +130,12 @@ items:
   fullName: LibDocsDemo.Math.Calculator.Multiply(double, double)
   type: Method
   source:
+    remote:
+      path: Math/Calculator.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Multiply
-    path: D:\Mobile\repos\LibDocsDemo\Math\Calculator.cs
+    path: ../Math/Calculator.cs
     startLine: 22
   assemblies:
   - LibDocsDemo
@@ -152,8 +168,12 @@ items:
   fullName: LibDocsDemo.Math.Calculator.Divide(double, double)
   type: Method
   source:
+    remote:
+      path: Math/Calculator.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Divide
-    path: D:\Mobile\repos\LibDocsDemo\Math\Calculator.cs
+    path: ../Math/Calculator.cs
     startLine: 28
   assemblies:
   - LibDocsDemo

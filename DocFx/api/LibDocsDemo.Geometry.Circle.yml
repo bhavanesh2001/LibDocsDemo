@@ -17,8 +17,12 @@ items:
   fullName: LibDocsDemo.Geometry.Circle
   type: Class
   source:
+    remote:
+      path: Geometry/Circle.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Circle
-    path: D:\Mobile\repos\LibDocsDemo\Geometry\Circle.cs
+    path: ../Geometry/Circle.cs
     startLine: 5
   assemblies:
   - LibDocsDemo
@@ -50,8 +54,12 @@ items:
   fullName: LibDocsDemo.Geometry.Circle.Radius
   type: Property
   source:
+    remote:
+      path: Geometry/Circle.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Radius
-    path: D:\Mobile\repos\LibDocsDemo\Geometry\Circle.cs
+    path: ../Geometry/Circle.cs
     startLine: 10
   assemblies:
   - LibDocsDemo
@@ -77,8 +85,12 @@ items:
   fullName: LibDocsDemo.Geometry.Circle.Circle(double)
   type: Constructor
   source:
+    remote:
+      path: Geometry/Circle.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: .ctor
-    path: D:\Mobile\repos\LibDocsDemo\Geometry\Circle.cs
+    path: ../Geometry/Circle.cs
     startLine: 16
   assemblies:
   - LibDocsDemo
@@ -108,8 +120,12 @@ items:
   fullName: LibDocsDemo.Geometry.Circle.Area()
   type: Method
   source:
+    remote:
+      path: Geometry/Circle.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Area
-    path: D:\Mobile\repos\LibDocsDemo\Geometry\Circle.cs
+    path: ../Geometry/Circle.cs
     startLine: 25
   assemblies:
   - LibDocsDemo
@@ -135,8 +151,12 @@ items:
   fullName: LibDocsDemo.Geometry.Circle.Perimeter()
   type: Method
   source:
+    remote:
+      path: Geometry/Circle.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Perimeter
-    path: D:\Mobile\repos\LibDocsDemo\Geometry\Circle.cs
+    path: ../Geometry/Circle.cs
     startLine: 31
   assemblies:
   - LibDocsDemo

@@ -18,8 +18,12 @@ items:
   fullName: LibDocsDemo.Geometry.Rectangle
   type: Class
   source:
+    remote:
+      path: Geometry/Rectangle.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Rectangle
-    path: D:\Mobile\repos\LibDocsDemo\Geometry\Rectangle.cs
+    path: ../Geometry/Rectangle.cs
     startLine: 6
   assemblies:
   - LibDocsDemo
@@ -51,8 +55,12 @@ items:
   fullName: LibDocsDemo.Geometry.Rectangle.Width
   type: Property
   source:
+    remote:
+      path: Geometry/Rectangle.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Width
-    path: D:\Mobile\repos\LibDocsDemo\Geometry\Rectangle.cs
+    path: ../Geometry/Rectangle.cs
     startLine: 11
   assemblies:
   - LibDocsDemo
@@ -78,8 +86,12 @@ items:
   fullName: LibDocsDemo.Geometry.Rectangle.Height
   type: Property
   source:
+    remote:
+      path: Geometry/Rectangle.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Height
-    path: D:\Mobile\repos\LibDocsDemo\Geometry\Rectangle.cs
+    path: ../Geometry/Rectangle.cs
     startLine: 16
   assemblies:
   - LibDocsDemo
@@ -105,8 +117,12 @@ items:
   fullName: LibDocsDemo.Geometry.Rectangle.Rectangle(double, double)
   type: Constructor
   source:
+    remote:
+      path: Geometry/Rectangle.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: .ctor
-    path: D:\Mobile\repos\LibDocsDemo\Geometry\Rectangle.cs
+    path: ../Geometry/Rectangle.cs
     startLine: 23
   assemblies:
   - LibDocsDemo
@@ -139,8 +155,12 @@ items:
   fullName: LibDocsDemo.Geometry.Rectangle.Area()
   type: Method
   source:
+    remote:
+      path: Geometry/Rectangle.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Area
-    path: D:\Mobile\repos\LibDocsDemo\Geometry\Rectangle.cs
+    path: ../Geometry/Rectangle.cs
     startLine: 33
   assemblies:
   - LibDocsDemo
@@ -166,8 +186,12 @@ items:
   fullName: LibDocsDemo.Geometry.Rectangle.Perimeter()
   type: Method
   source:
+    remote:
+      path: Geometry/Rectangle.cs
+      branch: master
+      repo: https://github.com/bhavanesh2001/LibDocsDemo.git
     id: Perimeter
-    path: D:\Mobile\repos\LibDocsDemo\Geometry\Rectangle.cs
+    path: ../Geometry/Rectangle.cs
     startLine: 39
   assemblies:
   - LibDocsDemo
