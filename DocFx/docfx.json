@@ -31,7 +31,7 @@
         ]
       }
     ],
-    "output": "../docs_site",
+    "output": "../docs",
     "template": [
       "default",
       "modern"
