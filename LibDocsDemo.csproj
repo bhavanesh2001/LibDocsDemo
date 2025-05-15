@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="docs\" />
-    <Folder Include="DocFx\" />
   </ItemGroup>
 
 </Project>
