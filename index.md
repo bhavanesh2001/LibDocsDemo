@@ -2,10 +2,39 @@
 _layout: landing
 ---
 
-# This is the **HOMEPAGE**.
+# Welcome to **LibDocsDemo** Documentation
 
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
+LibDocsDemo is a sample .NET library demonstrating geometry, math, and utility operations. This documentation provides an overview, API reference, and guides to help you get started.
 
-## Quick Start Notes:
+## Features
 
-1. Add images to the *images* folder if the file is referencing an image.
+- **Geometry**: Work with shapes like circles and rectangles.
+- **Math**: Perform calculations with the Calculator class.
+- **Utilities**: String manipulation helpers and more.
+
+## Quick Links
+
+- [Getting Started](docs/getting-started.html)
+- [API Reference](api/index.html)
+- [Introduction](docs/introduction.html)
+
+## Example Usage
+
+```csharp
+using LibDocsDemo.Geometry;
+using LibDocsDemo.Math;
+
+var circle = new Circle(5);
+var area = circle.GetArea();
+
+var calc = new Calculator();
+var sum = calc.Add(2, 3);
+```
+
+## About
+
+This is a demo documentation site generated with [DocFX](https://dotnet.github.io/docfx/).
+
+---
+
+*For more information, explore the navigation menu or check out the API reference.*
